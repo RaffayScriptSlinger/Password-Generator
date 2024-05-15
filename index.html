@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strong Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="parentDiv">
+        <div id="mainDiv">
+            <h1 style="display: flex ; justify-content: center; align-items: center;">Password Generator</h1>
+            
+            <div id="inputMainDiv">
+                <input type="text" name="" id="input00" >
+
+            </div>
+            <div id="icon">
+                
+               <p> Weak Password : <span id="qualification" >.....</span></p>  
+               
+
+            </div>
+            <div id="forRange">
+                <input type="range" name="" id="inputBox" min="1" max="24" value="20">
+            </div>
+            <div id="length">
+                <div>
+                    Character Length : <span id="charLength" ></span>
+                </div>
+                <div>
+                    <input type="checkbox" id="lowerLetter"><span>a-z</span>
+                    <input type="checkbox" name="" id="number"><span>0-9</span>
+                    <input type="checkbox" name="" id="specialCharacter"><span>@#$</span>
+                    <input type="checkbox" name="" id="capitalLetter"><span>A-Z</span>
+    
+                </div>
+
+        </div>
+        <div id="btn">
+            <button id="generateBtn">Generate Password</button>
+        </div>
+       
+        </div>
+       
+    </div>
+    <div id="lastDiv">
+        <h1>Made By Raffay!</h1>
+       </div>
+    
+    <script src="app.js"></script>
+</body>
+
+</html>
